@@ -11,7 +11,7 @@ const t = {
     kicker: 'cloud engineer · infraestrutura de missão crítica',
     heading1: 'Infraestrutura que não pode falhar.',
     heading2: 'Automação que não para de escalar.',
-    subtitle: 'Carlos Magno Cordeiro da Silva — SRE & DevOps Engineer · Telecomunicações & Tecnologia',
+    subtitle: 'Carlos Magno Cordeiro — SRE & DevOps Engineer · Telecomunicações & Tecnologia',
     description: '12+ anos de tecnologia sustentando sistemas em produção. Hoje, aplico essa base para operar infraestrutura multicloud com automação de ponta a ponta — e agentes de IA como próxima camada de eficiência.',
   },
   'en': {
@@ -21,7 +21,7 @@ const t = {
     kicker: 'cloud engineer · mission-critical infrastructure',
     heading1: 'Infrastructure that can\'t afford to fail.',
     heading2: 'Automation that never stops scaling.',
-    subtitle: 'Carlos Magno Cordeiro da Silva — SRE & DevOps Engineer · Telecom & Technology',
+    subtitle: 'Carlos Magno Cordeiro — SRE & DevOps Engineer · Telecom & Technology',
     description: '12+ years in technology keeping production systems running. Today, I leverage that foundation to operate multicloud infrastructure with end-to-end automation — and AI agents as the next layer of efficiency.',
   },
 };
