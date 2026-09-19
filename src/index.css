@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─────────────────────────────────────────
+   CSS Custom Properties (Design Tokens)
+───────────────────────────────────────── */
+:root {
+  --bg: #0A1420;
+  --panel: #101E2E;
+  --panel-2: #0D1826;
+  --line: #1E3348;
+  --line-soft: #16293B;
+  --text: #E8EEF2;
+  --text-muted: #7C93A8;
+  --text-dim: #4E6479;
+  --teal: #4FD1C5;
+  --teal-dim: #2B5C57;
+  --amber: #F5A623;
+  --amber-dim: #6B4A16;
+}
+
+/* ─────────────────────────────────────────
+   Base Reset
+───────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  line-height: 1.65;
+  overflow: hidden; /* Slide deck — no vertical scroll on body */
+}
+
+/* ─────────────────────────────────────────
+   Custom Scrollbar (inside slide overflow)
+───────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--panel-2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--teal-dim);
+}
+
+/* ─────────────────────────────────────────
+   Focus Ring (Accessibility)
+───────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}
+
+/* ─────────────────────────────────────────
+   Selection
+───────────────────────────────────────── */
+::selection {
+  background-color: var(--teal-dim);
+  color: var(--text);
+}
+
+/* ─────────────────────────────────────────
+   Animations
+───────────────────────────────────────── */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes pulse-teal {
+  0%, 100% { box-shadow: 0 0 6px var(--teal); }
+  50% { box-shadow: 0 0 12px var(--teal), 0 0 20px var(--teal-dim); }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.5s ease both;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.4s ease both;
+}
+
+/* Stagger children */
+.animate-stagger > *:nth-child(1) { animation-delay: 0ms; }
+.animate-stagger > *:nth-child(2) { animation-delay: 80ms; }
+.animate-stagger > *:nth-child(3) { animation-delay: 160ms; }
+.animate-stagger > *:nth-child(4) { animation-delay: 240ms; }
+.animate-stagger > *:nth-child(5) { animation-delay: 320ms; }
+.animate-stagger > *:nth-child(6) { animation-delay: 400ms; }
+
+/* ─────────────────────────────────────────
+   Background Grid Pattern
+───────────────────────────────────────── */
+.bg-grid {
+  background-image:
+    linear-gradient(var(--line-soft) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line-soft) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* ─────────────────────────────────────────
+   Teal Glow Utility
+───────────────────────────────────────── */
+.glow-teal {
+  box-shadow: 0 0 6px var(--teal);
+}
+
+.glow-amber {
+  box-shadow: 0 0 6px var(--amber);
+}

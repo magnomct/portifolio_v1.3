@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" fill="#0A1420"/>
+  <!-- Outer border -->
+  <rect x="1" y="1" width="30" height="30" stroke="#1E3348" stroke-width="1"/>
+  <!-- CM initials stylized as cloud brackets -->
+  <path d="M6 22 L6 10 L11 10 L11 12 L8 12 L8 20 L11 20 L11 22 Z" fill="#4FD1C5"/>
+  <path d="M13 10 L16 10 L16 15 L19 15 L19 10 L22 10 L22 22 L19 22 L19 17 L16 17 L16 22 L13 22 Z" fill="#4FD1C5"/>
+  <!-- Teal glow dot -->
+  <circle cx="27" cy="7" r="2" fill="#F5A623"/>
+</svg>
