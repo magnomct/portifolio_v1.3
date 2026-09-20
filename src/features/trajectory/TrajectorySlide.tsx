@@ -11,7 +11,7 @@ const milestones = {
     { year: '2023', event: 'Kubernetes, Docker, Terraform, CI/CD — stack de operação completo' },
     { year: '2024', event: 'Pós-graduação Cibersegurança (FIA) · Ansible, ELK, Grafana em produção' },
     { year: '2025', event: 'Multicloud DevOps & IA — Azure, GCP, LangChain, primeiros agentes' },
-    { year: '2026', event: 'OCI AI Foundations Certified · RAG, LangGraph, n8n, EKS + Karpenter + ArgoCD' },
+    { year: '2026', event: 'OCI AI Foundations & OCI Foundations 2026 Certified · RAG, LangGraph, n8n, EKS + Karpenter + ArgoCD' },
   ],
   'en': [
     { year: '2013', event: 'Bachelor\'s in Information Systems — Faculdade Impacta' },
@@ -20,7 +20,7 @@ const milestones = {
     { year: '2023', event: 'Kubernetes, Docker, Terraform, CI/CD — full operations stack' },
     { year: '2024', event: 'Postgrad Cybersecurity (FIA) · Ansible, ELK, Grafana in production' },
     { year: '2025', event: 'Multicloud DevOps & AI — Azure, GCP, LangChain, first agents' },
-    { year: '2026', event: 'OCI AI Foundations Certified · RAG, LangGraph, n8n, EKS + Karpenter + ArgoCD' },
+    { year: '2026', event: 'OCI AI Foundations & OCI Foundations 2026 Certified · RAG, LangGraph, n8n, EKS + Karpenter + ArgoCD' },
   ],
 };
 

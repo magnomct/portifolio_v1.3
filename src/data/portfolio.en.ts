@@ -16,7 +16,7 @@ export const heroStats: HeroStat[] = [
   { num: '12+', label: 'years of experience in technology' },
   { num: '5', label: 'cloud providers with hands-on experience' },
   { num: '620h+', label: 'of applied technical training' },
-  { num: '2026', label: 'Oracle OCI AI Foundations Associate' },
+  { num: '2026', label: 'Oracle OCI AI & OCI Foundations Associate' },
 ];
 
 export const problemSolutions: ProblemSolution[] = [
@@ -82,9 +82,9 @@ export const cloudPlatforms: CloudPlatform[] = [
   {
     title: 'Oracle Cloud (OCI)',
     description:
-      'Official certification ',
-    highlight: 'OCI AI Foundations Associate',
-    descriptionAfter: ' (Oracle University, Sep/2026). OCI Foundations track in progress — application deployment and IaC on Oracle Cloud.',
+      'Official certifications ',
+    highlight: 'OCI AI Foundations Associate & OCI Foundations Associate 2026',
+    descriptionAfter: ' (Oracle University, 2026) — application deployment and IaC on Oracle Cloud.',
   },
   {
     title: 'Azure',
@@ -142,16 +142,16 @@ export const certifications: Certification[] = [
     details: 'issued Sep 7, 2026 · valid until Sep/2028',
   },
   {
+    status: 'issued',
+    title: 'Oracle Cloud Infrastructure Foundations Associate 2026',
+    issuer: 'Oracle University',
+    details: 'issued 2026 · valid until 2028',
+  },
+  {
     status: 'preparing',
     title: 'AWS Certified Solutions Architect – Associate',
     issuer: '',
     details: 'Consolidating AWS track: EC2, IAM, S3, RDS, Lambda, full architecture',
-  },
-  {
-    status: 'in-progress',
-    title: 'OCI Foundations Associate',
-    issuer: '',
-    details: 'ONE AI FOR TECH certification journey — OCI environment, DevOps Linux CLI, TLS/SSL',
   },
 ];
 

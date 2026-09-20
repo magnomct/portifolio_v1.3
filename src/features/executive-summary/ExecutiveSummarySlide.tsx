@@ -25,11 +25,11 @@ const t = {
     profile: [
       'Formação: Bacharelado em Sistemas de Informação',
       'Pós: Cibersegurança e Proteção Digital (FIA, 2024)',
-      'Certificado OCI AI Foundations Associate (set/2026)',
+      'Certificado OCI AI Foundations & OCI Foundations Associate 2026',
       '620h+ de capacitação técnica aplicada',
       'Localização: São Paulo, Brasil',
     ],
-    statLabels: ['anos em tecnologia', 'clouds em atuação', 'capacitação técnica', 'OCI AI Foundations'],
+    statLabels: ['anos em tecnologia', 'clouds em atuação', 'capacitação técnica', 'OCI Certifications 2026'],
   },
   'en': {
     part: 'PART 1 · IMPACT',
@@ -51,7 +51,7 @@ const t = {
     profile: [
       'Degree: Bachelor\'s in Information Systems',
       'Postgrad: Cybersecurity & Digital Protection (FIA, 2024)',
-      'Certified OCI AI Foundations Associate (Sep/2026)',
+      'Certified OCI AI Foundations & OCI Foundations Associate 2026',
       '620h+ of applied technical training',
       'Location: São Paulo, Brazil',
     ],
